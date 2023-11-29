@@ -2,7 +2,7 @@
   <img src="https://avatars.githubusercontent.com/u/152215067?s=200&v=4" height="80">
 </p>
 
-# LabsMobile-IOS
+# LabsMobile-Prestashop
 
 ![](https://img.shields.io/badge/version-1.0.9-blue.svg)
  
@@ -10,7 +10,7 @@ Send SMS messages through the LabsMobile platform and the module for Prestashop.
 
 ## Documentation
 
-Labsmobile API documentation can be found [here][apidocs].
+Labsmobile documentation can be found [here][prestashopLabs].
 
 ## Features
 
@@ -70,20 +70,22 @@ Labsmobile API documentation can be found [here][apidocs].
    v1.7 => Inside the Modules menu.
    v8.1 => Inside the Modules menu.
 
-3. In the module you must create an account on the LabsMobile platform. You can create it directly from the module by entering an email (username) and a few data to identify your e-commerce.
+3. When the upload process is complete, click the install button and access the module's main page.
 
-4. You will receive a message to your email with the password. Enter the username (email) and password and then you could enjoy the LabsMobile SMS module.
+4. In the module you must create an account on the LabsMobile platform. You can create it directly from the module by entering an email (username) and a few data to identify your e-commerce.
 
-5. Set the phone_mobile field as mandatory in the Customers->Addresses section.
+5. You will receive a message to your email with the password. Enter the username (email) and password and then you could enjoy the LabsMobile SMS module.
 
-6. Request your welcome pack (100 SMS) or buy credits directly from the module in the Top-up section.
+6. Set the phone_mobile field as mandatory in the Customers->Addresses section.
 
-7. Configure automatic sendings and carry out SMS campaigns.
+7. Request your welcome pack (100 SMS) or buy credits directly from the module in the Top-up section.
+
+8. Configure automatic sendings and carry out SMS campaigns.
 
 ## Help
 
 If you have questions, you can contact us through the support chat or through the support email support@labsmobile.com.
 
-[apidocs]: https://apidocs.labsmobile.com/
+[prestashopLabs]: https://drive.google.com/file/d/1e0Fg32OsyVbWp1_-UaPFa4Bb3itXJp27/view
 [signUp]: https://www.labsmobile.com/en/signup
 [prestashop]: https://addons.prestashop.com/es/newsletter-sms/31022-labsmobile-sms.html
