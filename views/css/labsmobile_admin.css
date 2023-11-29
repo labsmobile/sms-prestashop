@@ -1,0 +1,10 @@
+.icon-AdminLabsmobile{
+    background: url(../img/favicon.ico) center center no-repeat;
+    width: 18px;
+    height: 20px;
+}
+
+#nav-sidebar ul.menu li.maintab>a.title i.icon-AdminLabsmobile {
+    vertical-align: middle !important;
+    margin-top: -5px;
+}

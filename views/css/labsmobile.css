@@ -1,0 +1,394 @@
+.lm_wrapper {
+
+}
+
+.lm_presentation {
+    
+}
+
+.lm_presentation .panel.cover {
+    padding: 0 !important;
+    margin: 0 0 20px 0 !important;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.lm_login .forgot, .lm_login .forgot:hover {
+    color: #2cb4b7;
+}
+
+.lm_presentation .banner {
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.lm_presentation .banner .banner_layer {
+    background-color: rgba(0,0,0, 0.45);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    position: absolute;
+    opacity: 0.85;
+    z-index: 9;
+    border-radius: 5px;
+}
+
+.lm_presentation .banner .banner_text {
+    position: relative;
+    min-height: 400px;
+}
+
+.lm_presentation .cover h1 {
+    padding: 30px 0 0 0;
+    margin: 0 0 0 0;
+    color: #fff;
+    font-size: 70px;
+    text-shadow: 2px 2px 6px #333;
+    z-index: 99;
+    position: relative;
+}
+
+.lm_presentation .cover h2 {
+    padding: 10px 0 50px 0;
+    margin: 0 0 0 0;
+    color: #fff;
+    font-size: 33px;
+    text-shadow: 2px 2px 6px #333;
+    z-index: 99;
+    position: relative;
+}
+
+.lm_presentation .tips i {
+    font-size: 50px;
+    margin: 0 0 10px 0;
+}
+
+.lm_presentation .tips i.rate {
+    font-style: normal;
+    font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 90%;
+    margin: 0 0 16px 0;
+    display: block;
+}
+
+.lm_presentation .tips {
+    color: #fff;
+    text-shadow: 2px 2px 6px #333;
+    z-index: 99;
+    position: relative;
+    font-size: 15px;
+}
+
+.lm_presentation .tips .tip {
+    padding: 25px;
+}
+
+.lm_presentation .features {
+    margin: 0 0 45px 0;
+}
+
+.lm_presentation .features h3 {
+    color: #44d4d7;
+    padding-left: 15px !important;
+}
+
+.lm_presentation .lm_subtitle {
+    color: #44d4d7;
+}
+
+.lm_presentation .lm_subtitle a {
+    color: #2cb4b7;
+    text-decoration: underline;
+}
+
+.lm_login,
+.lm_account {
+    padding: 5px;
+}
+
+.lm_login .title_wrapper, .lm_account .title_wrapper {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.lm_login .lm_title, .lm_account .lm_title, .lm_presentation .lm_title {
+    font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+    font-size: 23px;
+    color: #2cb4b7;
+    font-weight: bold;
+}
+
+.lm_login .lm_subtitle, .lm_account .lm_subtitle {
+    font-family: "Ubuntu Condensed",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    color: #44d4d7;
+}
+
+/* buttons style */
+.lm_wrapper .btn-green {
+    background: #3cc4c7;
+    border: 1px solid #2cb4b7;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+}
+
+.lm_wrapper .btn-green:hover, .lm_wrapper .btn-green:focus {
+    border: 1px solid #2ab2b5 !important;
+    background: #2ab2b5 !important;
+    color: #fff;
+}
+
+.lm_wrapper .btn-red {
+    background: #f76254;
+    border: 1px solid #d74234;
+    color: #fff;
+    font-size: 14px;
+    width: 100%;
+}
+
+.lm_wrapper .btn-red:hover, .lm_wrapper .btn-red:focus {
+    border: 1px solid #c1473b !important;
+    background: #c1473b !important;
+    color: #fff;
+}
+
+.lm_status {
+    float: right;
+}
+
+.lm_status i {
+    color: #72C279;
+}
+
+.lm_frame_purchase {
+    width: 100%;
+}
+
+.hide_btn {
+    height: 30px;
+    display: block;
+}
+
+.lm_menu i {
+    width: 15px;
+    text-align: center;
+} 
+
+textarea.tpl_sms {
+    height: 100px;
+}
+
+.prompt_tpl_sms {
+    float: right;
+    margin: 0 3px 0 0;
+}
+
+.prompt_emo_sms {
+    margin: 2px 0 0 0;
+}
+
+.prompt_emo_sms .face {
+    font-size: 150% !important;
+    width: 30px;
+}
+
+.emo_sms {
+    letter-spacing: 0.07em !important;
+}
+
+.sms_format {
+    letter-spacing: 0.07em !important;
+}
+
+#emojis {
+    width: 265px;
+    height: 95px;
+    overflow-x: auto;
+    overflow-y: scroll;
+    border: solid 1px #d7d8dd;
+    border-radius: 3px;
+    padding: 6px 5px 6px 10px;
+    position: absolute;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 25px;
+    z-index: 999;
+    display: none;
+}
+
+#templates_chosen {
+    margin: 0 0 3px 0;
+}
+
+.nomessagefound, .nonumbersfound {
+    margin-top: 5px;
+}
+
+.table_groups .badge, #conditions_show .badge {
+    white-space: normal !important;
+}
+
+.table_groups .badge, #conditions_show .badge {
+    margin: 0 5px 5px 0;
+}
+
+.open #emojis {
+    display: block !important;
+}
+  
+#emojis i {
+    font-style: normal;
+    width: 28px;
+    display: inline-block;
+}
+
+.badge .icon-times {
+    cursor: pointer;
+}
+
+#conditions_show {
+    min-height: 100px;
+}
+
+
+
+.fields_criteria {
+    min-height: 100px;
+}
+
+.label_check {
+    font-weight: normal !important;
+    cursor: pointer;
+}
+
+.form-fieldset {
+    border: 1px solid #eee !important;
+    padding: 5px !important;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.alert-messageF, .alert-messageM {
+    background-color: #e7e8ea;
+    border: 1px solid transparent;
+    border-color: #dddfe2;
+    padding: .75rem 1.25rem;
+    border-left: solid 3px #8a8a8a !important;
+}
+
+.alert-messageR {
+    background-color: #FFF3D7;
+    border: 1px solid transparent;
+    border-color: #faebcc;
+    padding: .75rem 1.25rem;
+    border-left: solid 3px #fcc94f !important;
+    color: #c2962C;
+}
+
+.alert-date {
+    text-align: right;
+    float: right;
+    margin-top: -12px;
+    margin-right: -10px;
+}
+
+#lm_sendsms_form .nav-tabs {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+#lm_sendsms_form .nav-tabs .nav-item {
+    margin-bottom: -1px;
+}
+
+#lm_sendsms_form .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+#lm_sendsms_form .nav-tabs .nav-link.active, .nav-tabs .nav-link.active:hover {
+    color: #495057;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+table.table_customers tr.selected td {
+    background-color: #ecf6fb !important;
+}
+
+.nav-item, .nav-link {
+    outline:0;
+}
+
+a, li {
+    outline: 0 !important;
+}
+
+#lm_sendsmsdialog_form .inputtext {
+    background-color: #ffffff;
+}
+
+.control-label.align-left {
+    text-align: left !important;
+}
+
+.table_messages .action_column {
+    min-height: 50px;
+    width: 1px;
+}
+
+#dash_chart svg {
+    width: 100%;
+    height: 300px;
+}
+
+.chart_stats .chart {
+    height: 200px;
+    text-align: center;
+    position: relative;
+}
+
+.chart_stats .chart svg {
+    margin-top: -40px;
+    width: 100%;
+    height: 100%;
+}
+
+.chart_stats .chart .value {
+    position: absolute;
+    top: 38%;
+    width: 98%;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#stats svg {
+    height: 350px;
+    width: 100%;
+}
+
+#stats .chart_stats .chart {
+    height: 350px;
+    text-align: center;
+    position: relative;
+}
+
+#stats .chart_stats .chart .value {
+    position: absolute;
+    top: 42%;
+    width: 98%;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+a.footer_link, a.footer_link:hover {
+    color: #2cb4b7;
+}
+
+
